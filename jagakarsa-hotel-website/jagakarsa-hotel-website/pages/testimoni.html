@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimoni - Jagakarsa Hotel</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Jagakarsa Hotel</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kamar-harga.html" class="nav-link">Kamar & Harga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tentang-kami.html" class="nav-link">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontak.html" class="nav-link">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeri.html" class="nav-link">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="promo.html" class="nav-link">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="testimoni.html" class="nav-link active">Testimoni</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Testimoni Tamu</h1>
+                <p>Dengarkan pengalaman menginap dari para tamu kami</p>
+            </div>
+        </section>
+
+        <!-- Featured Testimonials Slider -->
+        <section class="testimonials-slider">
+            <div class="container">
+                <h2>Testimoni Pilihan</h2>
+                <div class="testimonial-slider-container">
+                    <div class="testimonial-slider" id="testimonialSlider">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-content">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <blockquote>
+                                    "Pengalaman menginap yang luar biasa! Pelayanan staff sangat ramah dan profesional. 
+                                    Kamar bersih dan nyaman, fasilitas lengkap. Sarapan juga enak dengan variasi menu yang beragam. 
+                                    Pasti akan kembali lagi ke Jagakarsa Hotel!"
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <h4>Budi Santoso</h4>
+                                        <p>Pengusaha, Jakarta</p>
+                                        <span class="stay-date">Menginap: November 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <blockquote>
+                                    "Hotel yang sangat recommended untuk keluarga! Anak-anak senang sekali dengan kolam renangnya. 
+                                    Lokasi strategis, dekat dengan mall dan tempat makan. Staff hotel sangat membantu dan ramah. 
+                                    Kamar luas dan bersih. Worth it banget!"
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <h4>Sari Dewi</h4>
+                                        <p>Ibu Rumah Tangga, Bandung</p>
+                                        <span class="stay-date">Menginap: Oktober 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <blockquote>
+                                    "Perfect untuk business trip! WiFi kencang, business center lengkap, dan breakfast meeting room tersedia. 
+                                    Check-in dan check-out cepat. Lokasi mudah dijangkau dari bandara. 
+                                    Definitely my go-to hotel untuk perjalanan bisnis ke Jakarta Selatan."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <h4>Ahmad Rahman</h4>
+                                        <p>Marketing Manager, Surabaya</p>
+                                        <span class="stay-date">Menginap: Desember 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <blockquote>
+                                    "Honeymoon package-nya amazing! Kamar suite sangat romantis dengan dekorasi yang indah. 
+                                    Dinner romantis di restoran hotel juga memorable banget. Spa couple treatment-nya relaxing. 
+                                    Thank you Jagakarsa Hotel untuk membuat honeymoon kami jadi special!"
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <h4>Rina & Doni</h4>
+                                        <p>Pasangan Baru Menikah, Yogyakarta</p>
+                                        <span class="stay-date">Menginap: September 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="testimonial-btn prev" id="testimonialPrevBtn">❮</button>
+                    <button class="testimonial-btn next" id="testimonialNextBtn">❯</button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Testimonials Grid -->
+        <section class="all-testimonials">
+            <div class="container">
+                <h2>Semua Testimoni</h2>
+                <div class="testimonials-grid">
+                    <!-- Testimonial Card 1 -->
+                    <div class="testimonial-card">
+                        <div class="card-header">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <span class="rating-text">Excellent</span>
+                        </div>
+                        <div class="card-content">
+                            <p>"Kamar deluxe sangat nyaman dan bersih. View dari balkon bagus sekali. 
+                            Pelayanan room service cepat dan makanannya enak. Kolam renang bersih dan terawat. 
+                            Highly recommended!"</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author">
+                                <h5>Lisa Permata</h5>
+                                <span>Dokter, Jakarta</span>
+                            </div>
+                            <span class="date">Nov 2024</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 2 -->
+                    <div class="testimonial-card">
+                        <div class="card-header">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <span class="rating-text">Outstanding</span>
+                        </div>
+                        <div class="card-content">
+                            <p>"Staff front office sangat helpful dan ramah. Proses check-in smooth. 
+                            Breakfast buffet variatif dan fresh. Lokasi strategis dekat kemana-mana. 
+                            Pasti balik lagi!"</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author">
+                                <h5>Rudi Hartono</h5>
+                                <span>Konsultan IT, Bekasi</span>
+                            </div>
+                            <span class="date">Okt 2024</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 3 -->
+                    <div class="testimonial-card">
+                        <div class="card-header">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <span class="rating-text">Perfect</span>
+                        </div>
+                        <div class="card-content">
+                            <p>"Weekend getaway yang sempurna! Spa treatment-nya relaxing banget. 
+                            Dinner di restoran hotel romantic dan makanannya delicious. 
+                            Suasana hotel tenang dan nyaman untuk refreshing."</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author">
+                                <h5>Maya Sari</h5>
+                                <span>Guru, Depok</span>
+                            </div>
+                            <span class="date">Des 2024</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 4 -->
+                    <div class="testimonial-card">
+                        <div class="card-header">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <span class="rating-text">Excellent</span>
+                        </div>
+                        <div class="card-content">
+                            <p>"Business meeting di hotel ini sangat memuaskan. Meeting room equipped dengan teknologi modern. 
+                            Catering service bagus. Parking luas. Definitely akan recommend ke kolega."</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author">
+                                <h5>Indra Wijaya</h5>
+                                <span>CEO, Tangerang</span>
+                            </div>
+                            <span class="date">Nov 2024</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 5 -->
+                    <div class="testimonial-card">
+                        <div class="card-header">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <span class="rating-text">Amazing</span>
+                        </div>
+                        <div class="card-content">
+                            <p>"Family vacation yang memorable! Kids club seru untuk anak-anak. 
+                            Pool area aman dan bersih. Family room spacious dan comfortable. 
+                            Staff sangat patient dengan anak-anak."</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author">
+                                <h5>Keluarga Wijaya</h5>
+                                <span>Keluarga, Bogor</span>
+                            </div>
+                            <span class="date">Sep 2024</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 6 -->
+                    <div class="testimonial-card">
+                        <div class="card-header">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <span class="rating-text">Superb</span>
+                        </div>
+                        <div class="card-content">
+                            <p>"Solo traveler friendly! Security bagus, staff helpful untuk info wisata sekitar. 
+                            Kamar standard sudah sangat comfortable. WiFi kencang untuk work from hotel. 
+                            Value for money!"</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author">
+                                <h5>Dian Pratiwi</h5>
+                                <span>Content Creator, Solo</span>
+                            </div>
+                            <span class="date">Okt 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rating Summary -->
+        <section class="rating-summary">
+            <div class="container">
+                <h2>Rating & Ulasan</h2>
+                <div class="rating-overview">
+                    <div class="overall-rating">
+                        <div class="rating-score">4.8</div>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <div class="rating-text">Luar Biasa</div>
+                        <div class="total-reviews">Berdasarkan 247 ulasan</div>
+                    </div>
+                    <div class="rating-breakdown">
+                        <div class="rating-item">
+                            <span class="category">Kebersihan</span>
+                            <div class="rating-bar">
+                                <div class="rating-fill" style="width: 96%"></div>
+                            </div>
+                            <span class="score">4.8</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="category">Pelayanan</span>
+                            <div class="rating-bar">
+                                <div class="rating-fill" style="width: 94%"></div>
+                            </div>
+                            <span class="score">4.7</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="category">Lokasi</span>
+                            <div class="rating-bar">
+                                <div class="rating-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="score">4.6</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="category">Fasilitas</span>
+                            <div class="rating-bar">
+                                <div class="rating-fill" style="width: 98%"></div>
+                            </div>
+                            <span class="score">4.9</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="category">Value for Money</span>
+                            <div class="rating-bar">
+                                <div class="rating-fill" style="width: 90%"></div>
+                            </div>
+                            <span class="score">4.5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Write Review CTA -->
+        <section class="write-review">
+            <div class="container">
+                <div class="review-cta">
+                    <h2>Bagikan Pengalaman Anda</h2>
+                    <p>Sudah pernah menginap di Jagakarsa Hotel? Ceritakan pengalaman Anda untuk membantu tamu lainnya.</p>
+                    <a href="kontak.html" class="btn-primary">Tulis Ulasan</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Jagakarsa Hotel</h3>
+                <p>Hotel terbaik di Jakarta Selatan dengan pelayanan prima dan fasilitas modern.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Navigasi</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Beranda</a></li>
+                    <li><a href="kamar-harga.html">Kamar & Harga</a></li>
+                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <div class="contact-info">
+                    <p>📍 Jl. Jagakarsa Raya No. 123, Jakarta Selatan</p>
+                    <p>📞 (021) 1234-5678</p>
+                    <p>✉️ info@jagakarsahotel.com</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Jam Operasional</h4>
+                <div class="operating-hours">
+                    <p>Check-in: 14:00</p>
+                    <p>Check-out: 12:00</p>
+                    <p>Resepsionis: 24 Jam</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jagakarsa Hotel. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
+

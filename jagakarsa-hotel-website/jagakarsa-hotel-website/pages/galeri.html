@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Jagakarsa Hotel</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Jagakarsa Hotel</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kamar-harga.html" class="nav-link">Kamar & Harga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tentang-kami.html" class="nav-link">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontak.html" class="nav-link">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeri.html" class="nav-link active">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="promo.html" class="nav-link">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="testimoni.html" class="nav-link">Testimoni</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Galeri Foto</h1>
+                <p>Jelajahi fasilitas dan suasana Jagakarsa Hotel</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="container">
+                <!-- Gallery Slider -->
+                <div class="gallery-slider">
+                    <h2>Sorotan Fasilitas</h2>
+                    <div class="slider-container">
+                        <div class="slider" id="gallerySlider">
+                            <div class="slide active">
+                                <img src="../assets/images/kDNqchg9ARzh.jpg" alt="Eksterior Hotel">
+                                <div class="slide-caption">
+                                    <h3>Eksterior Hotel</h3>
+                                    <p>Tampilan luar Jagakarsa Hotel yang modern dan elegan</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="../assets/images/t1MaXYDArjU8.jpg" alt="Lobby Hotel">
+                                <div class="slide-caption">
+                                    <h3>Lobby Hotel</h3>
+                                    <p>Lobby yang luas dan nyaman dengan desain kontemporer</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="../assets/images/6YJDpasUowBA.jpg" alt="Kamar Hotel">
+                                <div class="slide-caption">
+                                    <h3>Kamar Hotel</h3>
+                                    <p>Kamar yang nyaman dengan fasilitas modern</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="../assets/images/gClF6RXwGYhS.jpg" alt="Kolam Renang">
+                                <div class="slide-caption">
+                                    <h3>Kolam Renang</h3>
+                                    <p>Kolam renang outdoor dengan pemandangan yang menawan</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="../assets/images/73HmZw5pEjGr.jpg" alt="Restoran">
+                                <div class="slide-caption">
+                                    <h3>Restoran</h3>
+                                    <p>Restoran dengan suasana elegan dan menu berkualitas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider-btn prev" id="prevBtn">❮</button>
+                        <button class="slider-btn next" id="nextBtn">❯</button>
+                        <div class="slider-dots" id="sliderDots"></div>
+                    </div>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid">
+                    <h2>Galeri Lengkap</h2>
+                    
+                    <!-- Exterior Section -->
+                    <div class="gallery-category">
+                        <h3>Eksterior & Bangunan</h3>
+                        <div class="photo-grid">
+                            <div class="photo-item" onclick="openModal('../assets/images/kDNqchg9ARzh.jpg', 'Eksterior Hotel - Tampak Depan')">
+                                <img src="../assets/images/kDNqchg9ARzh.jpg" alt="Eksterior Hotel">
+                                <div class="photo-overlay">
+                                    <span>Tampak Depan Hotel</span>
+                                </div>
+                            </div>
+                            <div class="photo-item" onclick="openModal('../assets/images/kDNqchg9ARzh.jpg', 'Eksterior Hotel - Tampak Samping')">
+                                <img src="../assets/images/kDNqchg9ARzh.jpg" alt="Eksterior Hotel Samping">
+                                <div class="photo-overlay">
+                                    <span>Tampak Samping Hotel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lobby Section -->
+                    <div class="gallery-category">
+                        <h3>Lobby & Area Umum</h3>
+                        <div class="photo-grid">
+                            <div class="photo-item" onclick="openModal('../assets/images/t1MaXYDArjU8.jpg', 'Lobby Hotel - Area Utama')">
+                                <img src="../assets/images/t1MaXYDArjU8.jpg" alt="Lobby Hotel">
+                                <div class="photo-overlay">
+                                    <span>Lobby Utama</span>
+                                </div>
+                            </div>
+                            <div class="photo-item" onclick="openModal('../assets/images/t1MaXYDArjU8.jpg', 'Lobby Hotel - Area Tunggu')">
+                                <img src="../assets/images/t1MaXYDArjU8.jpg" alt="Area Tunggu Lobby">
+                                <div class="photo-overlay">
+                                    <span>Area Tunggu</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rooms Section -->
+                    <div class="gallery-category">
+                        <h3>Kamar & Suite</h3>
+                        <div class="photo-grid">
+                            <div class="photo-item" onclick="openModal('../assets/images/6YJDpasUowBA.jpg', 'Kamar Standard')">
+                                <img src="../assets/images/6YJDpasUowBA.jpg" alt="Kamar Standard">
+                                <div class="photo-overlay">
+                                    <span>Kamar Standard</span>
+                                </div>
+                            </div>
+                            <div class="photo-item" onclick="openModal('../assets/images/6YJDpasUowBA.jpg', 'Kamar Deluxe')">
+                                <img src="../assets/images/6YJDpasUowBA.jpg" alt="Kamar Deluxe">
+                                <div class="photo-overlay">
+                                    <span>Kamar Deluxe</span>
+                                </div>
+                            </div>
+                            <div class="photo-item" onclick="openModal('../assets/images/6YJDpasUowBA.jpg', 'Suite Room')">
+                                <img src="../assets/images/6YJDpasUowBA.jpg" alt="Suite Room">
+                                <div class="photo-overlay">
+                                    <span>Suite Room</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pool Section -->
+                    <div class="gallery-category">
+                        <h3>Kolam Renang & Rekreasi</h3>
+                        <div class="photo-grid">
+                            <div class="photo-item" onclick="openModal('../assets/images/gClF6RXwGYhS.jpg', 'Kolam Renang Utama')">
+                                <img src="../assets/images/gClF6RXwGYhS.jpg" alt="Kolam Renang">
+                                <div class="photo-overlay">
+                                    <span>Kolam Renang Utama</span>
+                                </div>
+                            </div>
+                            <div class="photo-item" onclick="openModal('../assets/images/gClF6RXwGYhS.jpg', 'Area Pool Deck')">
+                                <img src="../assets/images/gClF6RXwGYhS.jpg" alt="Pool Deck">
+                                <div class="photo-overlay">
+                                    <span>Area Pool Deck</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant Section -->
+                    <div class="gallery-category">
+                        <h3>Restoran & Dining</h3>
+                        <div class="photo-grid">
+                            <div class="photo-item" onclick="openModal('../assets/images/73HmZw5pEjGr.jpg', 'Restoran Utama')">
+                                <img src="../assets/images/73HmZw5pEjGr.jpg" alt="Restoran">
+                                <div class="photo-overlay">
+                                    <span>Restoran Utama</span>
+                                </div>
+                            </div>
+                            <div class="photo-item" onclick="openModal('../assets/images/73HmZw5pEjGr.jpg', 'Private Dining')">
+                                <img src="../assets/images/73HmZw5pEjGr.jpg" alt="Private Dining">
+                                <div class="photo-overlay">
+                                    <span>Private Dining</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Image Viewing -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Jagakarsa Hotel</h3>
+                <p>Hotel terbaik di Jakarta Selatan dengan pelayanan prima dan fasilitas modern.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Navigasi</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Beranda</a></li>
+                    <li><a href="kamar-harga.html">Kamar & Harga</a></li>
+                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <div class="contact-info">
+                    <p>📍 Jl. Jagakarsa Raya No. 123, Jakarta Selatan</p>
+                    <p>📞 (021) 1234-5678</p>
+                    <p>✉️ info@jagakarsahotel.com</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Jam Operasional</h4>
+                <div class="operating-hours">
+                    <p>Check-in: 14:00</p>
+                    <p>Check-out: 12:00</p>
+                    <p>Resepsionis: 24 Jam</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jagakarsa Hotel. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
+

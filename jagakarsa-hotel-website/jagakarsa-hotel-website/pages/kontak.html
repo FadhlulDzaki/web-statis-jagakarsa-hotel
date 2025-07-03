@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Jagakarsa Hotel</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Jagakarsa Hotel</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kamar-harga.html" class="nav-link">Kamar & Harga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tentang-kami.html" class="nav-link">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontak.html" class="nav-link active">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeri.html" class="nav-link">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="promo.html" class="nav-link">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="testimoni.html" class="nav-link">Testimoni</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Hubungi Kami</h1>
+                <p>Kami siap membantu Anda 24 jam setiap hari</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Kirim Pesan</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Nomor Telepon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <select id="subject" name="subject">
+                                    <option value="">Pilih Subjek</option>
+                                    <option value="reservation">Reservasi Kamar</option>
+                                    <option value="inquiry">Pertanyaan Umum</option>
+                                    <option value="complaint">Keluhan</option>
+                                    <option value="suggestion">Saran</option>
+                                    <option value="other">Lainnya</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Kirim Pesan</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info-section">
+                        <h2>Informasi Kontak</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Alamat</h4>
+                                <p>Jl. Jagakarsa Raya No. 123<br>Jakarta Selatan 12620<br>Indonesia</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Telepon</h4>
+                                <p>(021) 1234-5678</p>
+                                <p>(021) 1234-5679 (Fax)</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>
+                                    <a href="https://wa.me/6281234567890" target="_blank" class="whatsapp-link">
+                                        +62 812-3456-7890
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>info@jagakarsahotel.com</p>
+                                <p>reservation@jagakarsahotel.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🌐</div>
+                            <div class="contact-details">
+                                <h4>Media Sosial</h4>
+                                <div class="social-links">
+                                    <a href="#" class="social-link">Facebook</a>
+                                    <a href="#" class="social-link">Instagram</a>
+                                    <a href="#" class="social-link">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Operating Hours -->
+                <div class="operating-hours-section">
+                    <h2>Jam Operasional</h2>
+                    <div class="hours-grid">
+                        <div class="hours-item">
+                            <h4>Resepsionis</h4>
+                            <p>24 Jam Setiap Hari</p>
+                        </div>
+                        <div class="hours-item">
+                            <h4>Check-in</h4>
+                            <p>14:00 - 23:00 WIB</p>
+                        </div>
+                        <div class="hours-item">
+                            <h4>Check-out</h4>
+                            <p>06:00 - 12:00 WIB</p>
+                        </div>
+                        <div class="hours-item">
+                            <h4>Restoran</h4>
+                            <p>06:00 - 22:00 WIB</p>
+                        </div>
+                        <div class="hours-item">
+                            <h4>Kolam Renang</h4>
+                            <p>06:00 - 21:00 WIB</p>
+                        </div>
+                        <div class="hours-item">
+                            <h4>Fitness Center</h4>
+                            <p>05:00 - 23:00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="map-section">
+                    <h2>Lokasi Kami</h2>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7461234567!2d106.8123456!3d-6.3123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec123456789%3A0x123456789abcdef!2sJagakarsa%2C%20Jakarta%20Selatan!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-info">
+                        <h4>Akses Transportasi:</h4>
+                        <ul>
+                            <li>🚇 Stasiun Lenteng Agung (10 menit berkendara)</li>
+                            <li>🚌 Halte TransJakarta Jagakarsa (5 menit jalan kaki)</li>
+                            <li>✈️ Bandara Halim Perdanakusuma (20 menit berkendara)</li>
+                            <li>✈️ Bandara Soekarno-Hatta (45 menit berkendara)</li>
+                            <li>🚗 Akses mudah dari Tol Jagorawi dan Tol Lingkar Luar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Jagakarsa Hotel</h3>
+                <p>Hotel terbaik di Jakarta Selatan dengan pelayanan prima dan fasilitas modern.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Navigasi</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Beranda</a></li>
+                    <li><a href="kamar-harga.html">Kamar & Harga</a></li>
+                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <div class="contact-info">
+                    <p>📍 Jl. Jagakarsa Raya No. 123, Jakarta Selatan</p>
+                    <p>📞 (021) 1234-5678</p>
+                    <p>✉️ info@jagakarsahotel.com</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Jam Operasional</h4>
+                <div class="operating-hours">
+                    <p>Check-in: 14:00</p>
+                    <p>Check-out: 12:00</p>
+                    <p>Resepsionis: 24 Jam</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jagakarsa Hotel. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
+
